@@ -1,0 +1,60 @@
+/* AppHeader styling */
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #1a73e8; /* Google-blue theme */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: sticky; /* Stick to top */
+    top: 0;
+    z-index: 100;
+}
+
+/* Logo section */
+.app-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.app-header .logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Optional for a circular logo */
+    object-fit: cover;
+}
+
+.app-header .logo h3 {
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a.active {
+    background-color: #185abc; /* Highlight active link */
+}
+
+.nav-links a:hover {
+    background-color: #287ae6;
+    color: #f1f1f1;
+}

@@ -1,0 +1,71 @@
+/* About Page Styles */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(120deg, #e3f2fd, #bbdefb); /* Light blue gradient */
+    color: #202124;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Container for the about content */
+.about-container {
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+}
+
+/* Title Styling */
+.about-container h1 {
+    font-size: 2.5rem;
+    color: #1a73e8; /* Google-blue */
+    margin-bottom: 20px;
+}
+
+.about-container h1 span {
+    color: #fbbc04; /* Google-yellow for Appsus branding */
+}
+
+/* Paragraph Styling */
+.about-container p {
+    font-size: 1.2rem;
+    color: #5f6368;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Features Section */
+.about-features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Individual Feature Styling */
+.feature {
+    flex: 1 1 250px;
+    background-color: #e8f0fe;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #5f6368;
+    line-height: 1.5;
+}

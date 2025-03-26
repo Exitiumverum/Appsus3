@@ -1,0 +1,70 @@
+/* Book List Container */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+/* Book Preview Card */
+.book-preview {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Thumbnail Styling */
+.book-preview img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+/* Book Title */
+.book-preview h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Action Buttons */
+.book-preview button {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-preview button:hover {
+    background-color: #2980b9;
+}
+
+/* Remove Button Styling */
+.book-preview button.remove-btn {
+    background-color: #e74c3c;
+}
+
+.book-preview button.remove-btn:hover {
+    background-color: #c0392b;
+}

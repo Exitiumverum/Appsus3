@@ -1,0 +1,49 @@
+.mail-header{
+    grid-area: 1 / 1 / 2 / 6;
+    background-color: #f7f8fc;
+    padding: 1em;
+    display: flex;
+    gap: 4em;
+    align-items: center;
+}
+
+.mail-header-body{
+    width: 100vw;
+}
+
+
+.mail-header input{
+    border: none;
+    border-radius: 2em;
+    background-color: #eaf1fb;
+    padding: 1em;
+    outline: none;
+    width: 30em;
+    padding-left: 3.5em;
+}
+
+.mail-header input:focus{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mail-header{
+    grid-area: 1 / 1 / 2 / 6;
+    background-color: #f7f8fc;
+    padding: 1em;
+    display: flex;
+    gap: 4em;
+    align-items: center;
+}
+
+.mail-header .search-wrapper {
+    position: relative; 
+}
+
+
+.header-search-icon{
+    position: absolute;
+    left: 1em;
+    top: 50%; 
+    transform: translateY(-50%);
+}

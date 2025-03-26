@@ -1,0 +1,33 @@
+.mail{
+    display: flex;
+    /* gap: 0.3em; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    padding-left: 1em;
+    border-bottom: solid #eceff1;
+}
+
+.mail.isClicked{
+    background-color: #f7f8fc;
+}
+
+.mail-start{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.mail:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul{
+        list-style-type: none;
+}
+
+.mail-date{
+    align-self: flex-end;
+}

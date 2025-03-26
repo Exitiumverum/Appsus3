@@ -1,0 +1,45 @@
+.note-todos ul {
+    padding: 0;
+    margin: 0;
+}
+
+.note-todos li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.note-todos li input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.note-todos li span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #3c4043;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.note-todos li span.done {
+    text-decoration: line-through;
+    color: #9aa0a6;
+    font-weight: 300; /* Softer look for completed tasks */
+}
+
+.note-todos li button {
+    border: none;
+    background: none; /* Remove the background */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Optional: to align it perfectly */
+    font-size: 16px; /* Adjust icon size */
+    cursor: pointer;
+    color: #5f6368; /* Neutral color */
+    transition: color 0.2s ease;
+}
+
+.note-todos li button:hover {
+    color: #d93025; /* Highlight with red when hovered */
+}

@@ -1,0 +1,16 @@
+.compose-send-btn{
+    width: 6em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 3em;
+    border: none;
+    margin: 0.3em;
+    background-color: #0c57d0;
+    color: azure;
+    font-size: 1em;
+}
+ 
+.compose-send-btn:hover{
+    scale: 1.01;
+    cursor: pointer;
+}

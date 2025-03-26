@@ -1,0 +1,57 @@
+.mail-filter-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    gap: 1em;
+    transition: 0.3s ease;
+}
+
+.mail-filter-section.filter-open {
+    opacity: 100%;
+}
+
+.mail-filter-section.filter-closed {
+    opacity: 0;
+    transform: translateX(-10em);
+
+}
+
+.filter-compose {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    align-items: center;
+    background-color: #c2e7ff;
+    padding: 1em;
+    border-radius: 1em;
+    transition: 0.3s ease;
+    width: 60%;
+}
+
+.filter-compose svg {
+    color: #000000;
+}
+
+.filter-compose:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Added box shadow */
+}
+
+.filter-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 11em;
+}
+
+.mail-filter-item {
+    border-radius: 2em;
+    padding: 0.3em;
+}
+
+.mail-filter-item:hover {
+    cursor: pointer;
+    background-color: #e5e5ea;
+}

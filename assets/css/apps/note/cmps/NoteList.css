@@ -1,0 +1,29 @@
+.note-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.note-list .section-title {
+    font-size: 18px;
+    color: #3c4043;
+    margin-bottom: 10px;
+}
+
+.note-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.note-section.pinned {
+    background-color: #e8f0fe;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.note-section.others {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}

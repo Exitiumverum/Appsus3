@@ -1,0 +1,95 @@
+/* Home Page Styles */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(120deg, #e3f2fd, #bbdefb); /* Light blue gradient */
+    min-height: 100vh;
+    color: #202124;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Hero Section */
+.home-hero {
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.home-hero h1 {
+    font-size: 3rem;
+    color: #1a73e8;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home-hero h1 span {
+    color: #fbbc04; /* Highlighted text */
+}
+
+.home-hero p {
+    font-size: 1.2rem;
+    color: #5f6368;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.home-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #185abc;
+}
+
+.btn-secondary {
+    background-color: #fbbc04;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #e8a000;
+}
+
+/* Intro Section */
+.home-intro {
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+.home-intro h2 {
+    font-size: 2rem;
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+.home-intro p {
+    font-size: 1rem;
+    color: #5f6368;
+    line-height: 1.6;
+}

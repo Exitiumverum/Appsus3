@@ -1,0 +1,45 @@
+/* Main Container */
+.book-index {
+    padding: 2rem;
+    margin: auto;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title Styling */
+.main-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.add-google-book-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-google-book-btn:hover {
+    background-color: #218838;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 1.5rem;
+    }
+
+    .book-index {
+        padding: 1rem;
+    }
+}

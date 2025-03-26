@@ -1,0 +1,38 @@
+/* Main container for the audio note */
+.note-audio {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light gray background for a card-like look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align content */
+    max-width: 400px; /* Limit width for a clean design */
+    margin: 20px auto; /* Center horizontally */
+}
+
+/* Title styling */
+.note-audio h3 {
+    font-size: 1.5rem;
+    color: #1a73e8; /* Google blue for branding */
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif; /* Modern sans-serif font */
+}
+
+/* Audio player styling */
+.note-audio audio {
+    width: 100%; /* Make the audio player fill the container */
+    outline: none; /* Remove default browser outline */
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .note-audio {
+        padding: 15px;
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .note-audio h3 {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,71 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.note-index {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.note-add {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.note-add select, 
+.note-add input {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+.note-add select:focus, 
+.note-add input:focus {
+    border-color: #4285f4;
+}
+
+.note-add button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.note-add button:hover {
+    background-color: #185abc;
+}
+
+.note-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.note-filter input, 
+.note-filter select {
+    font-size: 14px;
+    padding: 6px 10px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    outline: none;
+}
+
+.error-msg {
+    color: #d93025;
+    background-color: #fce8e6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}

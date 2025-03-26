@@ -1,0 +1,23 @@
+.mail-side-bar{
+    padding: 0.4em;
+    /* background-color: #f7f8fc; */
+    background-color: #eaf1fb;
+    z-index: 1;
+}
+
+.mail-side-bar svg{
+    color: #5f6368;
+    width: 2em;
+    height: 2em;
+}
+
+.menu-opener{
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.menu-opener:hover{
+    cursor: pointer;
+    background-color: #e5e5ea;
+    
+}

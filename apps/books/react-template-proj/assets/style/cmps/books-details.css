@@ -1,0 +1,194 @@
+.book-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.book-details h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #333;
+}
+
+.book-details h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #666;
+}
+
+.book-details img.book-thumbnail {
+  display: block;
+  max-width: 200px;
+  margin: 16px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-details p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.price-high {
+  color: red;
+}
+
+.price-low {
+  color: green;
+}
+
+/* Navigation Buttons */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #0056b3;
+}
+
+.nav-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Dynamic Rating Section */
+.dynamic-rating-section {
+  margin: 20px 0;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.dynamic-rating-section h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  margin: 20px 0;
+}
+
+.reviews-section h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #333;
+}
+
+.reviews-list {
+  list-style: none;
+  padding: 0;
+}
+
+.review-item {
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.review-item .review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.review-fullname {
+  font-weight: bold;
+}
+
+.review-rating {
+  font-size: 14px;
+  color: #f39c12;
+}
+
+.review-readAt {
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.review-text {
+  margin-bottom: 12px;
+}
+
+.delete-review-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-review-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Add Review Form */
+.add-review-form {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.add-review-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.add-review-form input,
+.add-review-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: none;
+}
+
+.add-review-form button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-review-form button:hover {
+  background-color: #218838;
+}

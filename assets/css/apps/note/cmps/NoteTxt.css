@@ -1,0 +1,13 @@
+.note-txt {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #202124;
+    font-weight: 400; /* Normal weight for easy readability */
+    white-space: pre-wrap; /* Preserve multi-line formatting */
+    word-wrap: break-word; /* Break long words if necessary */
+}
+
+.note-txt p {
+    margin: 0;
+}

@@ -1,0 +1,23 @@
+.note-video {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.note-video iframe {
+    border: none;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Ensures video maintains 16:9 ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.note-video p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300; /* Lighter font for video titles */
+    color: #5f6368;
+    margin-top: 10px;
+}
+

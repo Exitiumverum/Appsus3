@@ -1,0 +1,21 @@
+ /* mail index  */
+
+
+.no-overflow{
+   overflow: hidden;
+}
+
+ .mail-index {
+    background-color: #f7f8fc;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, minmax(autofit, 1fr)); */
+    /* grid-template-rows: repeat(2, minmax(autofit, 1fr)); */
+    /* grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+ }

@@ -1,0 +1,13 @@
+.mail-container{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.mail-container p{
+    display: inline;
+}
+
+.mail-container{
+}
